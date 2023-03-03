@@ -14,7 +14,7 @@ services:
     volumes:
       - ./:/var/www
     networks:
-      - icu_emr
+      - open_weather
   nginx:
     image: nginx:alpine
     container_name: open_weather_api_nginx
@@ -25,7 +25,7 @@ services:
       - ./:/var/www
       - ./docker-compose/nginx:/etc/nginx/conf.d/
     networks:
-      - icu_emr
+      - open_weather
 networks:
   icu_emr:
     driver: bridge
