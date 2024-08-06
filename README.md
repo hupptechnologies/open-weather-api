@@ -29,3 +29,5 @@ Install bellow commands.
 ## Screenshots
 
 ![Current Weather Screen](screenshot/screen-1-.png)
+![Next 24 hours Weather Screen](screenshot/screen-2-.png)
+![Next 7 days Weather Screen](screenshot/screen-3-.png)
