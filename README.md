@@ -1,8 +1,15 @@
 
 # Open-weather Api
 
-Latest Laravel Project with Open Weather API.
+Latest Laravel Project with Open Weather API to provide users with current weather information, hourly forecasts for the next 24 hours, and daily forecasts for the next 7 days based on their selected location.
 
+
+## Features
+
+- Current weather conditions as per the Open Weather API.
+- Hourly weather forecast for the next 24 hours.
+- Daily weather forecast for the next 7 days.
+- Location selection via Google Places Autocomplete.
 
 ## Installation
 
@@ -21,4 +28,4 @@ Install bellow commands.
 ```
 ## Screenshots
 
-Screenshots are added under `screenshots` folder.
+![Current Weather Screen](screenshot/screen-1-.png)
